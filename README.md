@@ -57,6 +57,12 @@ sudo vim back /etc/backup-script.conf
 
 3. Save and exit your backup_script.conf file
 
+4. Copy the backup-script and the backup-timer files in the `/etc/systemd/system` directory using the commands shown in the screenshot below
+
+![](images/image12.png)
+
+5. Create a new directory called o
+
 ## Creating the Service File
 1. Use the Command to create a new service file:
 ```

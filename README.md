@@ -61,7 +61,11 @@ sudo vim /etc/backup.conf
 
 ![](images/image12.png)
 
-5. Within the /opt directory, created a new directory called bakcu
+5. Within the /opt directory, created a new directory called bakcup
+
+6. After you created backup folder copy your backup script in your backup to make sure is matching your service file so it can be run 
+![](images/image12.png)
+
 
 ## Creating the Service File
 1. Use the Command to create a new service file:

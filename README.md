@@ -49,24 +49,24 @@ git clone https://github.com/username/2420_week11_Lab.git
 ## Creating the Configuration file
 1. Create a new file called backup_script.conf in the /etc directory. Use:
 ```
-sudo vim back /etc/backup-script.conf
+sudo vim /etc/backup.conf
 ```
 2. Follow the content in the screenshot below for the configuration file
 
 ![](images/backupconf.png)
 
-3. Save and exit your backup_script.conf file
+3. Save and exit your backup.conf file
 
 4. Copy the backup-script and the backup-timer files in the `/etc/systemd/system` directory using the commands shown in the screenshot below
 
 ![](images/image12.png)
 
-5. Create a new directory called o
+5. Within the /opt directory, created a new directory called bakcu
 
 ## Creating the Service File
 1. Use the Command to create a new service file:
 ```
-vim backup-script.service
+sudo vim backup.service
 ```
 2. Follow the content in the screenshot below for the service file
 
@@ -74,13 +74,15 @@ vim backup-script.service
 
 **Note:** The Description describes what the script will do
 
-3. Save and exit the backup-script.service in vim
+3. Save and exit the backup.service in vim
 
 ## Creating the Timer File
 1. Use the Command to create a new timer file:
 ```
-vim backup-script.timer
+sudo vim backup.timer
 ```
 2. Follow the content in the screenshot below for the timer file
+
 ![](images/image7.png)
-3. Save and exit the backup-script.timer in vim
+
+3. Save and exit the backup.timer in vim

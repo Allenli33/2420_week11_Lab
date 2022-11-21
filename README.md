@@ -57,3 +57,11 @@ sudo vim back /etc/backup-script.conf
 
 3. Save and exit your backup_script.conf file
 
+## Writing a Service File
+1. Use the Command to create a new service file:
+```
+vim backup-script.service
+```
+2. Follow the content in the screenshot below for the service file
+
+![](images/image14.png)

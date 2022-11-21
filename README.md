@@ -87,6 +87,6 @@ sudo vim backup.timer
 ```
 2. Follow the content in the screenshot below for the timer file
 
-![](images/image7.png)
+![](images/image17.png)
 
 3. Save and exit the backup.timer in vim

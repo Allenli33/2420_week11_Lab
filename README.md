@@ -46,8 +46,19 @@ Clone the Repository in your Linux Machine using:
 git clone https://github.com/username/2420_week11_Lab.git
 ```
 
+
+## Creating the backup-script
+1. Create a new file called backup-script in the home/week_11 directory. Use:
+```
+cd week_11/
+sudo vim backup-script
+```
+2. Follow the content in the screenshot below for the backup-script file
+![](images/cpbackup.png)
+
+
 ## Creating the Configuration file
-1. Create a new file called backup_script.conf in the /etc directory. Use:
+1. Create a new file called backup.conf in the /etc directory. Use:
 ```
 sudo vim /etc/backup.conf
 ```

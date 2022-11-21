@@ -93,7 +93,7 @@ sudo vim backup.timer
 
 ## Starting the Service and Checking its Status
 1. To reload the daemon, use the command: `sudo systemctl daemon-reload`
-2. To start the service file, use the command: `sudo systemctl start backup.service
+2. To start the service file, use the command: `sudo systemctl start backup.service`
 3. To check the status of the service file, use the command: `sudo systemctl status backup.service`
 ** Check to see if the output matches the screenshot below**
 

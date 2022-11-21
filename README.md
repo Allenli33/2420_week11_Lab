@@ -87,6 +87,19 @@ sudo vim backup.timer
 ```
 2. Follow the content in the screenshot below for the timer file
 
-![](images/image17.png)
+![](images/image7.png)
 
 3. Save and exit the backup.timer in vim
+
+## Starting the Service and Checking its Status
+1. To reload the daemon, use the command: `sudo systemctl daemon-reload`
+2. To start the service file, use the command: `sudo systemctl start backup.service
+3. To check the status of the service file, use the command: `sudo systemctl status backup.service`
+** Check to see if the output matches the screenshot below**
+
+![](images/image19.png)
+
+4. To check to see if the timer is working, use the command: `sudo systemctl list-timers`
+
+![](images/image17.png)
+

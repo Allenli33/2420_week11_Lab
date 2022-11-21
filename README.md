@@ -68,6 +68,8 @@ vim backup-script.service
 
 **Note:** The Description describes what the script will do
 
+3. Save and exit the backup-script.service in vim
+
 ## Creating the Timer File
 1. Use the Command to create a new timer file:
 ```
@@ -75,3 +77,4 @@ vim backup-script.timer
 ```
 2. Follow the content in the screenshot below for the timer file
 ![](images/image7.png)
+3. Save and exit the backup-script.timer in vim

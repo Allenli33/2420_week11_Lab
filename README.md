@@ -46,7 +46,7 @@ Clone the Repository in your Linux Machine using:
 git clone https://github.com/username/2420_week11_Lab.git
 ```
 
-## Creating a Configuration file
+## Creating the Configuration file
 1. Create a new file called backup_script.conf in the /etc directory. Use:
 ```
 sudo vim back /etc/backup-script.conf
@@ -57,7 +57,7 @@ sudo vim back /etc/backup-script.conf
 
 3. Save and exit your backup_script.conf file
 
-## Writing a Service File
+## Creating the Service File
 1. Use the Command to create a new service file:
 ```
 vim backup-script.service
@@ -65,3 +65,13 @@ vim backup-script.service
 2. Follow the content in the screenshot below for the service file
 
 ![](images/image14.png)
+
+**Note:** The Description describes what the script will do
+
+## Creating the Timer File
+1. Use the Command to create a new timer file:
+```
+vim backup-script.timer
+```
+2. Follow the content in the screenshot below for the timer file
+![](images/image7.png)

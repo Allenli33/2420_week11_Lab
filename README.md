@@ -100,6 +100,7 @@ sudo vim backup.timer
 ![](images/image19.png)
 
 4. To check to see if the timer is working, use the command: `sudo systemctl list-timers`
+** Check to see if the output matches the screenshot below**
 
 ![](images/image17.png)
 

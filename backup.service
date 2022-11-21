@@ -1,0 +1,9 @@
+[Unit]
+Description=using rsync to backup files from server-one to the backup-server every Friday at 01:00
+
+[Service]
+Type=oneshot
+ExecStart=/opt/backup/backup
+
+[Install]
+WantedBy=multi-user.target

@@ -54,7 +54,7 @@ cd week_11/
 sudo vim backup-script
 ```
 2. Follow the content in the screenshot below for the backup-script file
-![](images/cpbackup.png)
+![](images/backup-script.png)
 
 
 ## Creating the Configuration file
